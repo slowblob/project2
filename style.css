@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 50px 10px;
+}
+.nav-bar{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+.nav-bar ol{
+    list-style-type: none;
+    
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+
+}
+.normal{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.bold{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.purple{
+    color: white;
+    background-color: rgb(96, 38, 158);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+/* come back later */
+.second-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 920px;
+}
+.hunter-purple{
+    color: rgb(96, 38, 158);
+    font-size: 60px;
+    font-weight: bolder;
+}
+.ms{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 400px;
+}
+.intro h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 1em;
+}
+.spotlight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+.spotlight-text{
+    display: flex;
+    flex-direction: column;
+}
